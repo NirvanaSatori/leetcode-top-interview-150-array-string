@@ -1,6 +1,5 @@
 const strs = ["flower","flow","flight"]
 // const strs = ["dog","racecar","car"]
-
 var longestCommonPrefix = function () {
     //iterate through each character of the first word
     for(let i = 0;i<strs[0].length;i++){
